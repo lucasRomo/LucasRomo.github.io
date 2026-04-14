@@ -1,0 +1,177 @@
+/* --- CONFIGURACIÓN DE ANIMACIÓN --- */
+@property --x-0 { syntax: '<percentage>'; inherits: false; initial-value: 93% }
+@property --y-0 { syntax: '<percentage>'; inherits: false; initial-value: 63% }
+@property --s-start-0 { syntax: '<percentage>'; inherits: false; initial-value: 8.39% }
+@property --s-end-0 { syntax: '<percentage>'; inherits: false; initial-value: 38.58% }
+@property --c-0 { syntax: '<color>'; inherits: false; initial-value: hsla(217, 100%, 30%, 1) }
+@property --x-1 { syntax: '<percentage>'; inherits: false; initial-value: 33% }
+@property --y-1 { syntax: '<percentage>'; inherits: false; initial-value: -7% }
+@property --s-start-1 { syntax: '<percentage>'; inherits: false; initial-value: 8.39% }
+@property --s-end-1 { syntax: '<percentage>'; inherits: false; initial-value: 22.1% }
+@property --c-1 { syntax: '<color>'; inherits: false; initial-value: hsla(0, 0%, 0%, 1) }
+@property --s-start-2 { syntax: '<percentage>'; inherits: false; initial-value: 8.39% }
+@property --s-end-2 { syntax: '<percentage>'; inherits: false; initial-value: 22.55% }
+@property --c-2 { syntax: '<color>'; inherits: false; initial-value: hsla(0, 0%, 0%, 1) }
+@property --x-2 { syntax: '<percentage>'; inherits: false; initial-value: 84% }
+@property --y-2 { syntax: '<percentage>'; inherits: false; initial-value: 7% }
+@property --y-3 { syntax: '<percentage>'; inherits: false; initial-value: 5% }
+@property --x-3 { syntax: '<percentage>'; inherits: false; initial-value: 14% }
+@property --c-3 { syntax: '<color>'; inherits: false; initial-value: hsla(0, 0%, 0%, 1) }
+@property --s-start-3 { syntax: '<percentage>'; inherits: false; initial-value: 8.39% }
+@property --s-end-3 { syntax: '<percentage>'; inherits: false; initial-value: 22.55% }
+@property --x-4 { syntax: '<percentage>'; inherits: false; initial-value: 7% }
+@property --y-4 { syntax: '<percentage>'; inherits: false; initial-value: 96% }
+@property --s-start-4 { syntax: '<percentage>'; inherits: false; initial-value: 8.39% }
+@property --s-end-4 { syntax: '<percentage>'; inherits: false; initial-value: 22.55% }
+@property --c-4 { syntax: '<color>'; inherits: false; initial-value: hsla(0, 0%, 0%, 1) }
+@property --c-5 { syntax: '<color>'; inherits: false; initial-value: hsla(0, 0%, 0%, 1) }
+@property --s-start-5 { syntax: '<percentage>'; inherits: false; initial-value: 8.39% }
+@property --s-end-5 { syntax: '<percentage>'; inherits: false; initial-value: 22.55% }
+@property --y-5 { syntax: '<percentage>'; inherits: false; initial-value: 90% }
+@property --x-5 { syntax: '<percentage>'; inherits: false; initial-value: 93% }
+@property --x-6 { syntax: '<percentage>'; inherits: false; initial-value: 3% }
+@property --y-6 { syntax: '<percentage>'; inherits: false; initial-value: 61% }
+@property --c-6 { syntax: '<color>'; inherits: false; initial-value: hsla(279, 67%, 27%, 1) }
+@property --s-start-6 { syntax: '<percentage>'; inherits: false; initial-value: 8.39% }
+@property --s-end-6 { syntax: '<percentage>'; inherits: false; initial-value: 39.67% }
+@property --x-7 { syntax: '<percentage>'; inherits: false; initial-value: 94% }
+@property --y-7 { syntax: '<percentage>'; inherits: false; initial-value: 59% }
+@property --c-7 { syntax: '<color>'; inherits: false; initial-value: hsla(279, 67%, 27%, 1) }
+@property --s-start-7 { syntax: '<percentage>'; inherits: false; initial-value: 8.39% }
+@property --s-end-7 { syntax: '<percentage>'; inherits: false; initial-value: 49.58% }
+@property --x-8 { syntax: '<percentage>'; inherits: false; initial-value: 48% }
+@property --y-8 { syntax: '<percentage>'; inherits: false; initial-value: 63% }
+@property --c-8 { syntax: '<color>'; inherits: false; initial-value: hsla(217, 100%, 39%, 1) }
+@property --s-start-8 { syntax: '<percentage>'; inherits: false; initial-value: 8.39% }
+@property --s-end-8 { syntax: '<percentage>'; inherits: false; initial-value: 34.81% }
+@property --c-9 { syntax: '<color>'; inherits: false; initial-value: hsla(217, 100%, 30%, 1) }
+@property --s-start-9 { syntax: '<percentage>'; inherits: false; initial-value: 8.39% }
+@property --s-end-9 { syntax: '<percentage>'; inherits: false; initial-value: 31.77% }
+@property --x-9 { syntax: '<percentage>'; inherits: false; initial-value: 96% }
+@property --y-9 { syntax: '<percentage>'; inherits: false; initial-value: 78% }
+
+@keyframes background-animada {
+    0% { --x-0: 93%; --y-0: 63%; --c-0: hsla(217, 100%, 30%, 1); --x-1: 33%; --y-1: -7%; --x-2: 84%; --y-2: 7%; --x-6: 3%; --y-6: 61%; --x-7: 94%; --y-7: 59%; --x-8: 48%; --y-8: 63%; --x-9: 96%; --y-9: 78%; }
+    50% { --x-0: 2%; --y-0: 59%; --c-0: hsla(217, 100%, 30%, 1); --x-1: 42%; --y-1: 10%; --x-2: 75%; --y-2: 29%; --x-6: 54%; --y-6: 73%; --x-7: 57%; --y-7: 76%; --x-8: 11%; --y-8: 53%; --x-9: 70%; --y-9: 70%; }
+    100% { --x-1: 76%; --y-1: -3%; --x-2: 97%; --y-2: 18%; --x-6: 102%; --y-6: 16%; --x-7: 22%; --y-7: 52%; --x-9: 97%; --y-9: 51%; }
+}
+
+/* --- ESTILOS GENERALES --- */
+:root {
+    --neon-color: #00f2ff;
+    --neon-glow: rgba(0, 242, 255, 0.4);
+    --glass-bg: rgba(255, 255, 255, 0.04);
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    background-color: hsla(262, 82%, 3%, 1);
+    background-image: radial-gradient(circle at var(--x-0) var(--y-0), var(--c-0) var(--s-start-0), transparent var(--s-end-0)), 
+                      radial-gradient(circle at var(--x-1) var(--y-1), var(--c-1) var(--s-start-1), transparent var(--s-end-1)), 
+                      radial-gradient(circle at var(--x-2) var(--y-2), var(--c-2) var(--s-start-2), transparent var(--s-end-2)), 
+                      radial-gradient(circle at var(--x-3) var(--y-3), var(--c-3) var(--s-start-3), transparent var(--s-end-3)), 
+                      radial-gradient(circle at var(--x-4) var(--y-4), var(--c-4) var(--s-start-4), transparent var(--s-end-4)), 
+                      radial-gradient(circle at var(--x-5) var(--y-5), var(--c-5) var(--s-start-5), transparent var(--s-end-5)), 
+                      radial-gradient(circle at var(--x-6) var(--y-6), var(--c-6) var(--s-start-6), transparent var(--s-end-6)), 
+                      radial-gradient(circle at var(--x-7) var(--y-7), var(--c-7) var(--s-start-7), transparent var(--s-end-7)), 
+                      radial-gradient(circle at var(--x-8) var(--y-8), var(--c-8) var(--s-start-8), transparent var(--s-end-8)), 
+                      radial-gradient(circle at var(--x-9) var(--y-9), var(--c-9) var(--s-start-9), transparent var(--s-end-9));
+    animation: background-animada 25s linear infinite alternate-reverse;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.text-neon { color: var(--neon-color) !important; }
+.lora-font { font-family: 'Lora', serif; }
+
+/* Botones */
+.btn-neon {
+    background-color: var(--neon-color);
+    color: #000;
+    font-weight: 700;
+    border: none;
+    box-shadow: 0 0 15px var(--neon-glow);
+    transition: 0.3s;
+}
+
+.btn-neon:hover {
+    background-color: #fff;
+    box-shadow: 0 0 25px var(--neon-color);
+    transform: translateY(-3px);
+}
+
+.btn-outline-neon {
+    border: 2px solid var(--neon-color);
+    color: var(--neon-color);
+    font-weight: 600;
+}
+
+.btn-outline-neon:hover {
+    background: var(--neon-color);
+    color: #000;
+}
+
+/* Tarjetas */
+.photo-card, .project-card-large {
+    background: var(--glass-bg);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.project-card-large {
+    transition: border 0.4s ease, transform 0.4s ease;
+}
+
+.project-card-large:hover {
+    border-color: var(--neon-color);
+    transform: scale(1.01);
+}
+
+/* Píldoras */
+.badge-mini {
+    background: rgba(0, 242, 255, 0.1);
+    color: var(--neon-color);
+    border: 1px solid rgba(0, 242, 255, 0.3);
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: 0.75rem;
+}
+
+.technology-pills .badge {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px 18px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.link-hover:hover {
+    color: var(--neon-color) !important;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.hero-section { min-height: 100vh; padding: 100px 0; }
+.letter-spacing { letter-spacing: 3px; }
+
+/* --- FIJAR ALTURA DEL CARRUSEL --- */
+.carousel-item img {
+    /* Ajusta este valor (400px) según qué tan alto quieras el carrusel */
+    height: 400px; 
+    object-fit: cover; /* Corta los bordes sobrantes para no deformar la imagen */
+    object-position: top; /* Prioriza que se vea la parte de arriba (útil en capturas de software) */
+    width: 100%;
+}
+
+/* Ajuste para que en celulares no quede tan gigante */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 250px;
+    }
+}
+
+/* Opcional: Centrar verticalmente si la imagen es muy pequeña */
+.carousel-inner {
+    background-color: rgba(0,0,0,0.2); /* Un fondo sutil por si la imagen no carga */
+}
